@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <TextField fx:id="username" layoutX="137.0" layoutY="152.0" prefWidth="200.0" promptText="Username" />
+      <TextField fx:id="password" layoutX="137.0" layoutY="200.0" prefWidth="200.0" promptText="Password" />
+      <Button fx:id="btn" layoutX="165.0" layoutY="241.0" mnemonicParsing="false" onAction="#clicked" prefHeight="25.0" prefWidth="71.0" text="Login" textOverrun="CENTER_WORD_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</Pane>
